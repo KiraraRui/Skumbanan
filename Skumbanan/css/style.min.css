@@ -1,0 +1,51 @@
+/* er ny til bootstap så har googlet VIIILLLDDTTT meget - har prøvet mit beste til at placere tingende rigtigt,
+ ved ikke om vi må bruge bootstap havde spurgt de andre men de sagde det vidste de ikke, */
+ 
+ 
+ 
+/* fonts, background and coloring */ /* headings / text size and coloring */
+.probootstrap-logo,body{font-family:"Open Sans",sans-serif}
+body{background:#fff;font-size:16px;line-height:1.8;color:rgba(0,0,0,.5)}::selection{background:#000;color:#fff}::-moz-selection{background:#000;color:#fff}
+h1,h2,h3,h4{margin:1.414em 0 .5em;line-height:1.2;color:#000}
+h1{margin-top:0;font-size:1.602em}
+h2{font-size:1.424em}
+h3{font-size:1.266em}
+h4{font-size:1.125em}
+
+a{color:#421010}
+
+/*top border placement and size*/
+.probootstrap-header{padding-top:30px;padding-bottom:30px;width:100%;z-index:12;position:absolute;top:0}
+
+
+/*logo/title of homepage placement-coloring and size */
+.probootstrap-logo{float:left;color:#fff;padding-left:0;font-size:30px;display:block;font-weight:100}
+
+
+/* menu placement / menu coloring also with color of hovering over it */
+
+.probootstrap-nav{margin-left:60px;margin-top:12px;text-align:left;float:RIGHT;position:relative}
+.probootstrap-main-nav li{margin:0;padding:0 10px;list-style:none;display:inline;font-size:18px}
+.probootstrap-main-nav li a:hover{color:#ffd03e}.probootstrap-mobile-menu-active.show .probootstrap-main-nav li a{color:#fff}
+
+/* footer "below" our other "boxes/borders " */
+.btn.btn-black,.btn.btn-black:active,.btn.btn-black:focus,.btn.btn-black:hover{background:#000;color:#fff;border:1px solid #000}.btn.btn-black:active,.btn.btn-black:focus{outline:0}
+.probootstrap-section{position:relative;padding:10em 0}.probootstrap-main{position:relative;margin-bottom:300px;background:#fff;z-index:2}
+
+@media screen and (max-width:768px){.probootstrap-section{padding:5em 0}
+.probootstrap-main{margin-bottom:0}}.probootstrap-form,.service{margin-bottom:50px}
+.probootstrap-footer{position:fixed;z-index:1;bottom:0;height:300px;background:#F1F6F8;width:100%;left:0;padding-top:100px;text-align:center}
+
+@media screen and (max-width:768px){.probootstrap-footer{position:relative;height:inherit;padding:7em 0}}
+
+/* this makes our text align in the middle of the box asigned */
+.flex,.probootstrap-section-half,.probootstrap-section-half .probootstrap-text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap}.probootstrap-section-half:last-child .probootstrap-text{border-bottom:none}.probootstrap-section-half .probootstrap-image,.probootstrap-section-half .probootstrap-text{height:100vh;width:50%;-webkit-transition:.3s all ease;transition:.3s all ease}.probootstrap-section-half .probootstrap-image{background-position:center center;background-repeat:no-repeat;background-size:cover}@media screen and (max-width:768px){.probootstrap-section-half .probootstrap-image,.probootstrap-section-half .probootstrap-text{height:inherit;padding:2em 0;width:100%}
+.probootstrap-section-half .probootstrap-image{height:400px;padding:0}}
+.probootstrap-section-half .probootstrap-text{border-bottom:1px solid #f2f2f2;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+
+/* here we make the tables in a "chess like order" so not all the ones with pictures are one the left */
+
+.probootstrap-section-half .probootstrap-text>.probootstrap-inner{-ms-flex-item-align:center;align-self:center;max-width:500px;padding:30px}
+.probootstrap-section-half.probootstrap-reverse .probootstrap-image{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}
+
+
